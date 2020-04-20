@@ -1,4 +1,3 @@
-include: "/census_data/*.view.lkml"
 include: "/covid_block/*.view.lkml"
 
 explore: covid_combined_config {
