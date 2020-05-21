@@ -14,3 +14,8 @@ explore: italy_config {
   extends: [italy_core]
   extension: required
 }
+
+explore: mobility_config {
+  extends: [mobility_core]
+  extension: required
+}
