@@ -12,6 +12,7 @@
 • [covid_combined](/projects/covid/files/covid_block/covid_combined.view.lkml) Combines the JHU and NYT datasets, and houses core calculations at the State level (internationally) and the county level (US Only)
 • [covid_combined_pdts](/projects/covid/files/covid_block/covid_combined_pdts.view.lkml) Stores PDTs built off of covid_combined for calculations looking back in time or comparing aginst other geographies
 • [italy_province](/projects/covid/files/covid_block/italy_province.view.lkml) and [italy_region](/projects/covid/files/covid_block/italy_regions.view.lkml) Calculates COVID19 metrics based on the data provided by Presidenza del Consiglio dei Ministri - Dipartimento della Protezione Civil
+• [mobility](/projects/data-block-covid19/files/covid_block/mobility.view.lkml) compares communities' mobility (as measured via anonymized cell phone location data) visiting different types of locations. Data is compared to baseline values computed as the median in the 5‑week period Jan 3 – Feb 6, 2020 by day of the week. Data is updated regularly, but not daily. For more information, we strongly encourage you to read [the full documentation](https://www.google.com/covid19/mobility/).
 
 
 ##### *Views that pull data from datasets we've made available in BigQuery - the ETL for these has not been fully tested, and data should be treated with somewhat less certainty:*
